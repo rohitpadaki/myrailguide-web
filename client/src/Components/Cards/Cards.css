@@ -1,0 +1,393 @@
+.card-container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+#ailogo{
+    width: 170px;
+    height: 170px;
+}
+#s1{
+    position: absolute;
+    left: 750px;
+    top: 130px;
+    width: 250px;
+    height: 480px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(161, 159, 159);
+}
+#s2{
+    position: absolute;
+    left: 1100px;
+    top: 200px;
+    width: 250px;
+    height: 480px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(161, 159, 159);
+}
+#s3{
+    position: absolute;
+    left: 150px;
+    top: 130px;
+    width: 250px;
+    height: 480px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(161, 159, 159);
+}
+#s4{
+    position: absolute;
+    left: 470px;
+    top: 200px;
+    width: 250px;
+    height: 480px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(161, 159, 159);
+}
+.card__wrapper{
+    position: absolute;
+    top:200px;
+    left: 150px;
+}
+.card__wrapper > h1{
+    font-size: 50px;
+    padding-bottom: 3px;
+}
+.card-btn .btn{
+    margin-top: 20px;
+    position: relative;
+    border-radius: 10px;
+    right: 10px;
+}
+#pnrlogo{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 60px;
+    right: 30px;
+}
+.pnr-card__wrapper{
+    position: absolute;
+    top:170px;
+    left: 925px;
+}
+.pnr-card__wrapper > h1{
+    font-size: 50px;
+    padding-bottom: 3px;
+}
+.pnr-card-btn .btn{
+    margin-top: 20px;
+    position: relative;
+    border-radius: 10px;
+    right: 10px;
+}
+#trainlogo{
+    width: 150px;
+    height: 150px;
+}
+.train-card__wrapper{
+    position: absolute;
+    top:210px;
+    left: 150px;
+}
+.train-card__wrapper > h1{
+    font-size: 50px;
+    padding-bottom: 3px;
+}
+.train-card-btn .btn{
+    margin-top: 20px;
+    position: relative;
+    border-radius: 10px;
+    right: 10px;
+}
+#qrilogo{
+    width: 150px;
+    height: 150px;
+}
+.qr-card__wrapper{
+    position: absolute;
+    top:210px;
+    left: 925px;
+}
+.qr-card__wrapper > h1{
+    font-size: 50px;
+    padding-bottom: 3px;
+}
+.qr-card-btn .btn{
+    margin-top: 20px;
+    position: relative;
+    border-radius: 10px;
+    right: 10px;
+}
+.card-wrap{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.card-header{
+    margin-top: 80px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-underline{
+    margin-top: 2px;
+    position: relative;
+    width: 350px;
+    height: 6px;
+    background: -webkit-linear-gradient(
+        135deg, #225FDE 0%, #985BEF 100%
+    );
+    background: -moz-linear-gradient(
+        135deg, #225FDE 0%, #985BEF 100%
+    );
+    
+    background:linear-gradient(
+        135deg, #225FDE 0%, #985BEF 100%
+    );
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-subtitle{
+    margin-top: 10px;
+    font-size: 20px;
+    font-style: italic;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-mem{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card-items{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: rgba(224, 223, 223, 0.518);
+    padding: 50px 20px 40px 20px;
+    border-radius: 8px 8px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+.card-items >h3{
+    margin: 0px 0px 1px !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+.card-items:hover{
+    background: #225FDE;
+    color: white;
+}
+.team-img{position:relative;
+    bottom: 10px;
+    width: 150px;
+    height: 150px;
+    padding: 6px 6px;
+    background-color: #dedede;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.team-info{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.team-role{
+    font-style: italic;
+    color: rgb(171, 169, 169);
+}
+.team-underline{
+    margin-top: 5px;
+    position: relative;
+    width: 90px;
+    height: 4px;
+    background: -webkit-linear-gradient(
+        135deg, #225FDE 0%, #985BEF 100%
+    );
+    background: -moz-linear-gradient(
+        135deg, #225FDE 0%, #985BEF 100%
+    );
+    
+    background:linear-gradient(
+        135deg, #225FDE 0%, #985BEF 100%
+    );
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team-desc{
+    margin-top: 20px;
+}
+.footer{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background: white;
+}
+.body-div{
+    position: relative;
+    top: 100px;
+    background-color: #225FDE;
+    width: 100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    height: 80px;
+}
+.dark{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(44, 43, 43);
+    top: 100px;
+}
+.footer-header{
+    color: #225FDE;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.footer-header > h2{
+    font-size: 40px;
+}
+.footer-header>h4{
+    font-size: 20px;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    position: relative;
+    margin-left: 500px;
+}
+.footer-links-info{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.footer-links-div{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.footer-call>a{
+    margin-left: 5px;    
+}
+.iconi{
+    font-size: 20px;
+}
+.footer-call:hover{
+    color: white;
+}
+.footer-links-info>h4{
+    font-size: 30px;
+    color: #225FDE;
+    margin-bottom: 10px;
+}
+.footer-links-info>p{
+    color: white;
+}
+.dark-footer{
+    display: flex;
+}
+.footer-below{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    color: #225FDE;
+}
+.footer_underline{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background: rgb(72, 71, 71);
+    margin: 2px;
+}
+@media screen and (max-width: 1260px){
+    .card__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .pnr-card__wrapper{
+        top: 90px;
+        left: 185px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .train-card__wrapper{
+        left: 180px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .qr-card__wrapper{
+        left: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #s1{
+        display: none;
+    }
+    #s2{
+        display: none;
+    }
+    #s3{
+        display: none;
+    }
+    #s4{
+        display: none;
+    }
+    #pnrlogo{
+        left: 5px;
+    }
+    .card-items{
+        margin-left: 12.5px;
+        width: 90%;      
+        overflow: hidden;  
+    }
+    .team-img{
+        bottom: 0px;
+    }
+    .footer-below{
+        display: none;
+    }
+    .footer-links{
+        display: none;
+    }
+
+}

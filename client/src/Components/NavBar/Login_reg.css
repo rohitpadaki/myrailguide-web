@@ -1,0 +1,269 @@
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+}
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
+#qrlogo{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 170px;
+}
+#tk{
+    position: relative;
+    margin-left: 200px;
+}
+.crossmark{
+    color: #2a2a2a;
+    font-size: 30px;
+    margin-left: 420px;
+    position: absolute;
+}
+.back{
+    color: #2a2a2a;
+    font-size: 30px;
+    margin-top: 7px;
+    margin-right: 400px;
+    position: absolute;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 130px;
+    background: #fff;
+    padding-bottom:30px ;
+    width: 500px;
+    height: 480px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgb(62, 62, 62);
+    animation: "dropTop .3s linear";
+}
+.log-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+.log-user{
+    font-size: 24px;
+}
+.log-text{
+    color: #2a2a2a;
+    font-size: 27px;
+}
+.log-inputs{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.log-head-in{
+   display: flex;
+   align-items: center;
+   margin-left: 60px;
+   margin-bottom: 5px;
+}
+.log-input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 390px;
+    height: 60px;
+    background: #e4e4e4;
+    border-radius: 6px;
+}
+.log-input input{
+    padding-left: 15px;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 390px;
+    font-size: 19px;
+}
+
+.log-fp{
+ margin-left: 312px;
+ cursor: pointer;
+ color: #225FDE;
+ font-size: 17px
+}
+.log-button .btn{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 45px;
+    border-radius: 15px;
+    margin-left: 52px;
+}
+.log-reg{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+.log-reg>span{
+    color: #225FDE;
+    cursor: pointer;
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 130px;
+    background: #fff;
+    padding-bottom:30px ;
+    width: 500px;
+    height: 570px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgb(62, 62, 62);
+    animation: "dropTop .3s linear";
+}
+.reg-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+.reg-user{
+    font-size: 24px;
+}
+.reg-text{
+    color: #2a2a2a;
+    font-size: 27px;
+}
+.reg-inputs{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.reg-head-in{
+   display: flex;
+   align-items: center;
+   margin-left: 60px;
+   margin-bottom: 5px;
+}
+.reg-input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 390px;
+    height: 60px;
+    background: #e4e4e4;
+    border-radius: 6px;
+}
+.reg-input input{
+    padding-left: 15px;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 390px;
+    font-size: 19px;
+}
+.reg-button .btn{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 45px;
+    border-radius: 15px;
+    margin-left: 52px;
+}
+.reg-log{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+.reg-log>span{
+    color: #225FDE;
+    cursor: pointer;
+}
+.qrcode{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 130px;
+    background: #fff;
+    padding-bottom:30px ;
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgb(62, 62, 62);
+    animation: "dropTop .3s linear";
+}
+.qr-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+.qr-user{
+    font-size: 24px;
+}
+.qr-text{
+    color: #2a2a2a;
+    font-size: 27px;
+}
+.qr-inputs{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.qr-head-in{
+   display: flex;
+   align-items: center;
+   margin-left: 60px;
+   margin-bottom: 5px;
+}
+.qr-input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 390px;
+    height: 60px;
+    background: #e4e4e4;
+    border-radius: 6px;
+}
+.qr-input input{
+    padding-left: 15px;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 390px;
+    font-size: 19px;
+}
+.qr-button .btn{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 45px;
+    border-radius: 15px;
+    margin-left: 52px;
+}
+.qr-log{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+.qr-log>span{
+    color: #225FDE;
+    cursor: pointer;
+}
